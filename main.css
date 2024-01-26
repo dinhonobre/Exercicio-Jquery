@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(64, 64, 85);
+}
+
+form {
+    background-color: rgb(64, 64, 85);
+    text-align: center;
+    padding: 36px 0;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+form h1 {
+    color: #fff;
+    padding: 10px;
+}

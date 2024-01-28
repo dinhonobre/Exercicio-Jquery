@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     const novaTarefa = $('<li></li>').text(addNovaTarefa)
 
-    $('#listaTarefas').appendTo(novaTarefa)
+    $('#listaTarefas').append(novaTarefa)
     
     })
 })

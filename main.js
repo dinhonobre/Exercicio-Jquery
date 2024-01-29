@@ -8,7 +8,7 @@ $(document).ready(function() {
     const novaTarefa = $('<li></li>').text(addNovaTarefa)
 
     $('#listaTarefas').append(novaTarefa)
-        $('#listaTarefas').click(function() {
+        $(novaTarefa).click(function() {
             $(this).css("text-decoration", "line-through")
         })
     })
